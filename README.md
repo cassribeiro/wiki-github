@@ -12,8 +12,7 @@ O comando `rm teste.txt` apaga o arquivo chamado "texto.txt" no diretório atual
 ## cp 
 Este comando copia arquivos para outros arquivos ou para diretórios podendo copiar um ou múltiplos arquivos. <br>
 **Exemplo de aplicação:**<br>
-Copiando o arquivoA para o arquivoB no mesmo diretório
-`$ cp arquivoA arquivoB`
+Copiando o arquivoA para o arquivoB no mesmo diretório `$ cp arquivoA arquivoB`
 
 ## mv 
 
