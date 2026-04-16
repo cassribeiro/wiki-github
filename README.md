@@ -1,5 +1,8 @@
 # Comando em Linux 🐧
 ## ls
+Um dos comandos mais utilizados o `ls` é utilizado para listar arquivos ou diretórios.
+Para listar o conteúdo do diretório root basta digitar o comando `ls /`
+
 ## rm
 ## cp 
 ## mv 
