@@ -9,6 +9,8 @@ Para listar o conteúdo do diretório root basta digitar o comando `ls /`.
 ## mv 
 ## mkdir
 ## cd 
+Permite que o usuário entre em um diretório, necessitando de um permissão de execução para realizar essa ação. <br>
+O comando `cd/` faz com que o usuário retorne ao diretório raíz. 
 ## touch 
 ## shutdown
 ## find 
