@@ -1,2 +1,2 @@
-# Comando em Linux
+# Comando em Linux 🐧
 ## del
