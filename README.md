@@ -1,1 +1,1 @@
-# wiki-github
+# Comando em Linux
