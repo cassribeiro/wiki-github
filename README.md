@@ -17,8 +17,8 @@ Copiando o arquivoA para o arquivoB no mesmo diretório `$ cp arquivoA arquivoB`
 ## mv 
 
 ## mkdir
-O comando `mkdir` significa *"make directory"* que em português é *"criar diretório"*, ou seja é um comando que permite criar diretórios (pastas) dentro do atual ou em um especificado pelo usuário.<br> 
-**Exemplo de Aplicação:**<br>
+O comando `mkdir` significa *"make directory"* que em português é *"criar diretório"*, ou seja é um comando que permite criar diretórios (pastas) dentro do atual ou em um especificado pelo usuário.<br>
+**Exemplo de Aplicação:** <br>
 Criar um novo diretório dentro da pasta atual deve se usuar o comando `mkdir nome da_pasta` <br>
 Para criar um diretório em um caminho específico `mkdir /home/usuário/backup`
 
