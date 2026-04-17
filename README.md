@@ -34,13 +34,20 @@ Modificando a data e hora de um arquivo, se o arquivo não existe será criado a
 `$ touch -t AAAAMMDDhhmm.ss arquivo`
 
 ## ▸ shutdown
+
 ## ▸ find 
 Usado para procurar arquivos e diretórios diretamente no sistema de arquivos.<br>
 **Exemplo de Aplicação:** <br>
 Procura por todos os arquivos com extensão `.txt` a partir do diretório corrente(.). `$ find . -name “*.txt”`
 
 ## ▸ less
+
 ## ▸ tail
+Palavra vinda do inglês e significa **"cauda"**, é um comando que exibe as últimas linhas de um arquivo. <br>
+Usando o `-n` especifica o número de linhas finais que o `tail` vai mostrar de um arquivo e o `-f` mostra as últimas linhas finais de um arquivo enquanto outro processo grava mais linhas.
+**Exemplo de Aplicação:** <br>
+Para exibir as 40 últimas linhas do arquivo messages `$ tail –n 50 /var/log/messages`
+
 ## ▸ wc 
 ## ▸ grep
 ## ▸ whatis 
