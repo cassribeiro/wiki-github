@@ -29,7 +29,7 @@ O comando `cd/` faz com que o usuário retorne ao diretório raíz.
 
 ## ▸ touch 
 Comando capaz de alterar a data e a hora de acesso e modificção de um arquivo. Podendo mudar a hora de acesso ou a hora de modificação, tem a possibilidade de ser os dois ao mesmo tempo.<br>
-**Exemplo de Aplicação**
+**Exemplo de Aplicação:** <br>
 Modificando a data e hora de um arquivo, se o arquivo não existe será criado a partir daquele momento e se existir ocorre apenas a alteração. 
 `$ touch -t AAAAMMDDhhmm.ss arquivo`
 
