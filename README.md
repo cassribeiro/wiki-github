@@ -35,6 +35,10 @@ Modificando a data e hora de um arquivo, se o arquivo não existe será criado a
 
 ## ▸ shutdown
 ## ▸ find 
+Usado para procurar arquivos e diretórios diretamente no sistema de arquivos.<br>
+**Exemplo de Aplicação:** <br>
+Procura por todos os arquivos com extensão `.txt` a partir do diretório corrente(.). `$ find . -name “*.txt”`
+
 ## ▸ less
 ## ▸ tail
 ## ▸ wc 
