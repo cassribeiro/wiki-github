@@ -44,7 +44,7 @@ Procura por todos os arquivos com extensão `.txt` a partir do diretório corren
 
 ## ▸ tail
 Palavra vinda do inglês e significa **"cauda"**, é um comando que exibe as últimas linhas de um arquivo. <br>
-Usando o `-n` especifica o número de linhas finais que o `tail` vai mostrar de um arquivo e o `-f` mostra as últimas linhas finais de um arquivo enquanto outro processo grava mais linhas.
+Usando o `-n` especifica o número de linhas finais que o `tail` vai mostrar de um arquivo e o `-f` mostra as últimas linhas finais de um arquivo enquanto outro processo grava mais linhas. <br>
 **Exemplo de Aplicação:** <br>
 Para exibir as 40 últimas linhas do arquivo messages `$ tail –n 50 /var/log/messages`
 
