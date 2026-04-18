@@ -7,7 +7,7 @@ Para listar o conteúdo do diretório root basta digitar o comando `ls /`.
 ## ▸ rm
 Responsável por apagar arquivos, diretórios e sub-diretórios. <br>
 **Exemplos de Aplicação:** <br>
-O comando `rm teste.txt` apaga o arquivo chamado "texte.txt" no diretório atual.
+O comando `rm teste.txt` apaga o arquivo chamado "teste.txt" no diretório atual.
 
 ## ▸ cp 
 Este comando copia arquivos para outros arquivos ou para diretórios podendo copiar um ou múltiplos arquivos. <br>
@@ -110,6 +110,7 @@ Esse comando `chmod a=rw teste.txt` permite que todos os usuários exatamente (=
 Mostra o espaço ocupado por um arquivo e sub-diretório do diretório atual. <br>
 **Exemplo de Aplicação:** <br>
 O comando `du -h` mostra o espaço ocupado em formato Kb e Mb ao invés de blocos. 
+
 ## ▸ free
 
 ## ▸ isattr
@@ -122,4 +123,4 @@ Esse comando `lsattr -R` faz uma lista com atributos de um diretórios e subdire
 ## ▸ tee
 Envia o resultado do programa para a saída padrão e para um arquivo ao mesmo tempo. <br>
 **Exemplo de Aplicação:** <br>
-O comando `tee listagem.txt` do arquivo "listagem.txt".
+O comando `tee listagem.txt` mostra a saída do comando que será mostrada normalmente na tela e ao mesmo tempo gravar o arquivo "listagem.txt".
