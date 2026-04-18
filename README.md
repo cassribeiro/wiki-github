@@ -92,8 +92,10 @@ Esse comando `patch -pO<texto.diff` aplica as diferenças no arquivo "texto.diff
 
 ## ▸ last 
 
-## ▸ ping
+## ▸ finger
+Mostra detalhes sobre os usuários de um sistemas. <br>
 **Exemplo de Aplicação:** <br>
+O comando `finger` mostra os dados de todos os usuários conectados no sistema. 
 
 ## ▸ echo
 
