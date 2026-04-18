@@ -15,6 +15,9 @@ Este comando copia arquivos para outros arquivos ou para diretórios podendo cop
 Copiando o arquivoA para o arquivoB no mesmo diretório `$ cp arquivoA arquivoB`
 
 ## ▸ mv 
+Posibilita que arquivos e diretórios sejam movidos e renomeados, o arquivo de origem é apagado quando copiado. <br>
+**Exemplo de aplicação:**<br>
+Para mudar o nome do arquivo "teste.txt" para "testel.txt" é utilizado o comando `mv teste.txt testel.txt`
 
 ## ▸ mkdir
 O comando `mkdir` significa *"make directory"* que em português é *"criar diretório"*, ou seja é um comando que permite criar diretórios (pastas) dentro do atual ou em um especificado pelo usuário.<br>
