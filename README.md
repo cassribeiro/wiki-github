@@ -7,7 +7,7 @@ Para listar o conteúdo do diretório root basta digitar o comando `ls /`.
 ## ▸ rm
 Responsável por apagar arquivos, diretórios e sub-diretórios. <br>
 **Exemplos de Aplicação:** <br>
-O comando `rm teste.txt` apaga o arquivo chamado "texto.txt" no diretório atual.
+O comando `rm teste.txt` apaga o arquivo chamado "texte.txt" no diretório atual.
 
 ## ▸ cp 
 Este comando copia arquivos para outros arquivos ou para diretórios podendo copiar um ou múltiplos arquivos. <br>
