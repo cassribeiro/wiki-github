@@ -37,6 +37,9 @@ Modificando a data e hora de um arquivo, se o arquivo não existe será criado a
 `$ touch -t AAAAMMDDhhmm.ss arquivo`
 
 ## ▸ shutdown
+Proporciona que o computador seja desligado ou reiniciado, todos os usuários são avisados que o computaor será delisgado. Esse comando pode ser utilizado pelo usuário root ou a opção `-a` pelo usuário já cadastrado no sistema. <br>
+**Exemplo de Aplicação:** <br>
+O comando `shutdown -h now` desliga o computador imediatamente.
 
 ## ▸ find 
 Usado para procurar arquivos e diretórios diretamente no sistema de arquivos.<br>
@@ -44,6 +47,7 @@ Usado para procurar arquivos e diretórios diretamente no sistema de arquivos.<b
 Procura por todos os arquivos com extensão `.txt` a partir do diretório corrente(.). `$ find . -name “*.txt”`
 
 ## ▸ less
+**Exemplo de Aplicação:** <br>
 
 ## ▸ tail
 Palavra vinda do inglês e significa **"cauda"**, é um comando que exibe as últimas linhas de um arquivo. <br>
@@ -52,21 +56,50 @@ Usando o `-n` especifica o número de linhas finais que o `tail` vai mostrar de 
 Para exibir as 40 últimas linhas do arquivo messages `$ tail –n 50 /var/log/messages`
 
 ## ▸ wc 
+**Exemplo de Aplicação:** <br>
+
 ## ▸ grep
+
 ## ▸ whatis 
+**Exemplo de Aplicação:** <br>
+
 ## ▸ passwd
+
 ## ▸ sort 
+**Exemplo de Aplicação:** <br>
+
 ## ▸ chattr 
+
 ## ▸ cut
+**Exemplo de Aplicação:** <br>
+
 ## ▸ diff 
+
 ## ▸ patch
+**Exemplo de Aplicação:** <br>
+
 ## ▸ last 
+
 ## ▸ ping
+**Exemplo de Aplicação:** <br>
+
 ## ▸ echo
+
 ## ▸ chmod
+**Exemplo de Aplicação:** <br>
+
 ## ▸ df
+
 ## ▸ du
+**Exemplo de Aplicação:** <br>
+
 ## ▸ free
+
 ## ▸ isattr
+**Exemplo de Aplicação:** <br>
+
 ## ▸ chown
+
 ## ▸ tee
+**Exemplo de Aplicação:** <br>
+
