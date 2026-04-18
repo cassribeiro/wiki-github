@@ -17,7 +17,7 @@ Copiando o arquivoA para o arquivoB no mesmo diretório `$ cp arquivoA arquivoB`
 ## ▸ mv 
 Posibilita que arquivos e diretórios sejam movidos e renomeados, o arquivo de origem é apagado quando copiado. <br>
 **Exemplo de aplicação:**<br>
-Para mudar o nome do arquivo "teste.txt" para "testel.txt" é utilizado o comando `mv teste.txt testel.txt`
+Para mudar o nome do arquivo "teste.txt" para "testel.txt" é utilizado o comando `mv teste.txt testel.txt`.
 
 ## ▸ mkdir
 O comando `mkdir` significa *"make directory"* que em português é *"criar diretório"*, ou seja é um comando que permite criar diretórios (pastas) dentro do atual ou em um especificado pelo usuário.<br>
@@ -47,7 +47,9 @@ Usado para procurar arquivos e diretórios diretamente no sistema de arquivos.<b
 Procura por todos os arquivos com extensão `.txt` a partir do diretório corrente(.). `$ find . -name “*.txt”`
 
 ## ▸ less
+Permite que o usuário faça a paginação de um arquivo ou a entrada padrão. Esse comando pode ser usando como leitura de arquivo que oculpam mais de uma tela ou a tela toda. <br>
 **Exemplo de Aplicação:** <br>
+O comando `less /etc/passwd` permite que o arquivo "/ect/passwd" seja exibida de forma paginada.
 
 ## ▸ tail
 Palavra vinda do inglês e significa **"cauda"**, é um comando que exibe as últimas linhas de um arquivo. <br>
@@ -56,7 +58,9 @@ Usando o `-n` especifica o número de linhas finais que o `tail` vai mostrar de 
 Para exibir as 40 últimas linhas do arquivo messages `$ tail –n 50 /var/log/messages`
 
 ## ▸ wc 
+Conta o número de linhas, palavras e letras dentro de um arquivo ou entrada padrão. <br>
 **Exemplo de Aplicação:** <br>
+Para mostrar a quantidade de linhas, palavras e letras é usado o comando `wc / etc/passwd` do arquivo "/etc/passwd"
 
 ## ▸ grep
 
@@ -66,7 +70,9 @@ Para exibir as 40 últimas linhas do arquivo messages `$ tail –n 50 /var/log/m
 ## ▸ passwd
 
 ## ▸ sort 
+Organiza as linhas de um arquivo de texto ou entrada padrão, essa organização é feita por linhas divididas em campos. <br>
 **Exemplo de Aplicação:** <br>
+O comando `sort texto.txt` organiza o arquivo "texto.txt" em ordem crescente. 
 
 ## ▸ chattr 
 
