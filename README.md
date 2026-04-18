@@ -86,8 +86,9 @@ O comando `cut -b 1,3 /etc/passwd` pega a primeira e a terceira letra de cada li
 ## ▸ diff 
 
 ## ▸ patch
+Atualiza os arquivos texto através das diferenças geradas pelo comando `diff`. <br>
 **Exemplo de Aplicação:** <br>
-`patch -pO<texto.diff`
+Esse comando `patch -pO<texto.diff` aplica as diferenças no arquivo "texto.diff" nos arquivos originais. 
 
 ## ▸ last 
 
@@ -97,20 +98,26 @@ O comando `cut -b 1,3 /etc/passwd` pega a primeira e a terceira letra de cada li
 ## ▸ echo
 
 ## ▸ chmod
+Muda a permissão de acessso a um arquivo ou diretório, o usuário pode escolher se um outro usuário ou grupo possa ter permissão para ler, gravar e executar um arquivo. <br>
 **Exemplo de Aplicação:** <br>
+Esse comando `chmod a=rw teste.txt` permite que todos os usuários exatamente (=) para leitura e gravação do arquivo "teste.txt".
 
 ## ▸ df
 
 ## ▸ du
+Mostra o espaço ocupado por um arquivo e sub-diretório do diretório atual. <br>
 **Exemplo de Aplicação:** <br>
-
+O comando `du -h` mostra o espaço ocupado em formato Kb e Mb ao invés de blocos. 
 ## ▸ free
 
 ## ▸ isattr
+Lista os atributos de um arquivo ou um diretório do diretório atual <br>
 **Exemplo de Aplicação:** <br>
+Esse comando `lsattr -R` faz uma lista com atributos de um diretórios e subdiretórios.
 
 ## ▸ chown
 
 ## ▸ tee
+Envia o resultado do programa para a saída padrão e para um arquivo ao mesmo tempo. <br>
 **Exemplo de Aplicação:** <br>
-`tee listagem.txt` do arquivo "listagem.txt"
+O comando `tee listagem.txt` do arquivo "listagem.txt".
