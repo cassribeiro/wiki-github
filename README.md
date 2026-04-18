@@ -25,7 +25,7 @@ O comando `mkdir` significa *"make directory"* que em português é *"criar dire
 Criar um novo diretório dentro da pasta atual deve se usuar o comando `mkdir nome da_pasta` <br>
 Para criar um diretório em um caminho específico `mkdir /home/usuário/backup`
 
-## ▸ cd 
+## ▸ cd
 Permite que o usuário entre em um diretório, necessitando de um permissão de execução para realizar essa ação. <br>
 **Exemplo de Aplicação:** <br>
 O comando `cd/` faz com que o usuário retorne ao diretório raíz. 
