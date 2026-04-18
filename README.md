@@ -60,12 +60,14 @@ Para exibir as 40 últimas linhas do arquivo messages `$ tail –n 50 /var/log/m
 ## ▸ wc 
 Conta o número de linhas, palavras e letras dentro de um arquivo ou entrada padrão. <br>
 **Exemplo de Aplicação:** <br>
-Para mostrar a quantidade de linhas, palavras e letras é usado o comando `wc / etc/passwd` do arquivo "/etc/passwd"
+Para mostrar a quantidade de linhas, palavras e letras é usado o comando `wc / etc/passwd` do arquivo "/etc/passwd".
 
 ## ▸ grep
 
 ## ▸ whatis 
+O `whatis` tem como função exibir o que determinado programa faz. <br>
 **Exemplo de Aplicação:** <br>
+Digitando `whatis ls` será mostrado a descrição do comando `ls`. 
 
 ## ▸ passwd
 
@@ -77,12 +79,15 @@ O comando `sort texto.txt` organiza o arquivo "texto.txt" em ordem crescente.
 ## ▸ chattr 
 
 ## ▸ cut
+Mostra seções de cada linha do arquivo. <br>
 **Exemplo de Aplicação:** <br>
+O comando `cut -b 1,3 /etc/passwd` pega a primeira e a terceira letra de cada linha do arquivo "/etc/passwd".
 
 ## ▸ diff 
 
 ## ▸ patch
 **Exemplo de Aplicação:** <br>
+`patch -pO<texto.diff`
 
 ## ▸ last 
 
@@ -108,4 +113,4 @@ O comando `sort texto.txt` organiza o arquivo "texto.txt" em ordem crescente.
 
 ## ▸ tee
 **Exemplo de Aplicação:** <br>
-
+`tee listagem.txt` do arquivo "listagem.txt"
