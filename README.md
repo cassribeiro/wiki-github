@@ -163,6 +163,6 @@ O comando `tee listagem.txt` mostra a saída do comando que será mostrada norma
 
 
 <p align = center>
-  Com esses <strong>30 comandos fundamentais do GNU/Linux</strong>, <br> você já tem uma base sólida para utilizar o terminal com mais confiança e eficiência no dia a dia.<br>
+  Com esses <strong>30 comandos fundamentais do GNU/Linux</strong>, você já tem uma base sólida <br> para utilizar o terminal com mais confiança e eficiência no dia a dia.<br>
   Este guia foi baseado no arquivo disponível pelo <a href=https://guiafoca.org/> Guia Foca 🦭</a>
 </p>
