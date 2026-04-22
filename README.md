@@ -116,6 +116,10 @@ Mostra detalhes sobre os usuários de um sistemas. <br>
 O comando `finger` mostra os dados de todos os usuários conectados no sistema. 
 
 ## ▸ echo
+Eficiente na construção de scripts o comando **echo** mostra mensagens o que facilita o usuário a acompanhar sua execução.<br>
+**Exemplo de Aplicação**<br>
+`echo[mensagem]`<br>
+Para que não ocorra um salto de linha após a exibição da mensagem é usado o `echo -n`.
 
 ## ▸ chmod
 Muda a permissão de acessso a um arquivo ou diretório, o usuário pode escolher se um outro usuário ou grupo possa ter permissão para ler, gravar e executar um arquivo. <br>
