@@ -63,6 +63,10 @@ Conta o número de linhas, palavras e letras dentro de um arquivo ou entrada pad
 Para mostrar a quantidade de linhas, palavras e letras é usado o comando `wc / etc/passwd` do arquivo "/etc/passwd".
 
 ## ▸ grep
+Usado em tarefas administrativas o commando `grep` é usado como filtro para linhas de um determinado arquivo, onde procura por uma expressão regular como padrão.<br>
+**Exemplo de Aplicação:**<br>
+Procurando todas as linhas começadas com a letra **u** no arquivo `/etc/passwd`. O acento circunflexo simboliza o início de uma linha:<br>
+`$ grep "^u" /etc/passwd`
 
 ## ▸ whatis 
 O `whatis` tem como função exibir o que determinado programa faz. <br>
