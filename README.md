@@ -100,13 +100,15 @@ O comando `cut -b 1,3 /etc/passwd` pega a primeira e a terceira letra de cada li
 **Exemplo de Aplicação**
 Comparando o arquivo texto.txt com texto1.txt e exibindo suas diferenças na tela: `diff texto.txt texto1.txt`
 
-
 ## ▸ patch
 Atualiza os arquivos texto através das diferenças geradas pelo comando `diff`. <br>
 **Exemplo de Aplicação:** <br>
 Esse comando `patch -pO<texto.diff` aplica as diferenças no arquivo "texto.diff" nos arquivos originais. 
 
 ## ▸ last 
+Exibe todas as informações de entrada(login) e saída(logout) de usuários do sistema.<br>
+**Exemplo de Aplicação**
+Para mostrar a listagem geral e o nome da máquina: `last -a -`
 
 ## ▸ finger
 Mostra detalhes sobre os usuários de um sistemas. <br>
