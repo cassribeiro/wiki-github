@@ -1,7 +1,7 @@
 <h1 align = center> 🐧 Comandos em GNU/Linux 🐧 </h1>
 
 <p align = center>
-  Bem-vindo a este guia prático e simples com <strong>30 comandos fundamentais do GNU/Linux</strong>, com explicações e exemplos para ajudar no aprendizado e facilitar o uso no dia a dia.
+  Bem-vindo a este guia prático e simples com <strong>30 comandos fundamentais do GNU/Linux</strong>, <br> com explicações e exemplos para ajudar no aprendizado e facilitar o uso no dia a dia.
 </p>
 
 ## ▸ ls
@@ -163,6 +163,6 @@ O comando `tee listagem.txt` mostra a saída do comando que será mostrada norma
 
 
 <p align = center>
-  Com esses <strong>30 comandos fundamentais do GNU/Linux<strong>, você já tem uma base sólida para utilizar o terminal com mais confiança e eficiência no dia a dia.<br>
-  Este guia foi baseado no arquivo do <a href=>
+  Com esses <strong>30 comandos fundamentais do GNU/Linux</strong>, <br> você já tem uma base sólida para utilizar o terminal com mais confiança e eficiência no dia a dia.<br>
+  Este guia foi baseado no arquivo disponível pelo <a href=https://guiafoca.org/> Guia Foca 🦭</a>
 </p>
