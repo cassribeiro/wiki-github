@@ -160,7 +160,7 @@ Envia o resultado do programa para a saída padrão e para um arquivo ao mesmo t
 **Exemplo de Aplicação:** <br>
 O comando `tee listagem.txt` mostra a saída do comando que será mostrada normalmente na tela e ao mesmo tempo gravar o arquivo "listagem.txt".
 
-
+#
 
 <p align = center>
   Com esses <strong>30 comandos fundamentais do GNU/Linux</strong>, você já tem uma base sólida <br> para utilizar o terminal com mais confiança e eficiência no dia a dia.<br>
