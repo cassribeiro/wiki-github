@@ -76,8 +76,7 @@ Digitando `whatis ls` será mostrado a descrição do comando `ls`.
 ## ▸ passwd
 Este comando funciona como um gerenciador de senhas podendo ser utilizado para alterar as senhas dos usuários.<br>
 **Exemplo de Aplicação**<br>
-Para mudar a senha do usuário uira:<br>
-`# passwd uira
+Para mudar a senha do usuário uira: `# passwd uira
 Enter new password for ‘uira’:`
 
 ## ▸ sort 
