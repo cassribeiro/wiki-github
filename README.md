@@ -146,6 +146,9 @@ Lista os atributos de um arquivo ou um diretório do diretório atual <br>
 Esse comando `lsattr -R` faz uma lista com atributos de um diretórios e subdiretórios.
 
 ## ▸ chown
+Permite alterar o nome do dono e/ou grupo de arquivos. <br>
+**Exemplo de Aplicação:** <br>
+Muda o dono do arquivo teste.txt para pinguin: `chown pinguin teste.txt`
 
 ## ▸ tee
 Envia o resultado do programa para a saída padrão e para um arquivo ao mesmo tempo. <br>
