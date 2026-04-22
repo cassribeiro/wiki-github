@@ -1,7 +1,7 @@
 <h1 align = center> 🐧 Comandos em GNU/Linux 🐧 </h1>
 
 <p align = center>
-  Bem-vindo a este guia prático e simples com <strong>30 comandos fundamentais do GNU/Linux</strong>, com explicações e exemplos para ajudar no aprendizado e facilitar o uso no dia a dia.
+  Bem-vindo a este guia prático e simples com <strong>30 comandos fundamentais do GNU/Linux</strong>, <br> com explicações e exemplos para ajudar no aprendizado e facilitar o uso no dia a dia.
 </p>
 
 ## ▸ ls
