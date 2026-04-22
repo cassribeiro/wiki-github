@@ -11,12 +11,12 @@ O comando `rm teste.txt` apaga o arquivo chamado "teste.txt" no diretório atual
 
 ## ▸ cp 
 Este comando copia arquivos para outros arquivos ou para diretórios podendo copiar um ou múltiplos arquivos. <br>
-**Exemplo de aplicação:**<br>
+**Exemplo de aplicação:** <br>
 Copiando o arquivoA para o arquivoB no mesmo diretório `$ cp arquivoA arquivoB`
 
 ## ▸ mv 
 Posibilita que arquivos e diretórios sejam movidos e renomeados, o arquivo de origem é apagado quando copiado. <br>
-**Exemplo de aplicação:**<br>
+**Exemplo de aplicação:** <br>
 Para mudar o nome do arquivo "teste.txt" para "testel.txt" é utilizado o comando `mv teste.txt testel.txt`.
 
 ## ▸ mkdir
@@ -64,7 +64,7 @@ Para mostrar a quantidade de linhas, palavras e letras é usado o comando `wc / 
 
 ## ▸ grep
 Usado em tarefas administrativas o commando `grep` é usado como filtro para linhas de um determinado arquivo, onde procura por uma expressão regular como padrão.<br>
-**Exemplo de Aplicação:**<br>
+**Exemplo de Aplicação:** <br>
 Procurando todas as linhas começadas com a letra **u** no arquivo `/etc/passwd`. O acento circunflexo simboliza o início de uma linha:<br>
 `$ grep "^u" /etc/passwd`
 
@@ -75,7 +75,7 @@ Digitando `whatis ls` será mostrado a descrição do comando `ls`.
 
 ## ▸ passwd
 Este comando funciona como um gerenciador de senhas podendo ser utilizado para alterar as senhas dos usuários.<br>
-**Exemplo de Aplicação**<br>
+**Exemplo de Aplicação:** <br>
 Para mudar a senha do usuário uira:<br>
 `# passwd uira` <br>
 `Enter new password for ‘uira’:`
@@ -87,7 +87,7 @@ O comando `sort texto.txt` organiza o arquivo "texto.txt" em ordem crescente.
 
 ## ▸ chattr 
 Essencial para proteger arquivos, é um comando que pode modificar atributos de arquivos e diretórios indo além das permissões padrão (rwx).<br>
-**Exemplo de Aplicação** <br>
+**Exemplo de Aplicação:** <br>
  Adicionando todos os atributos:`chattr +AacdiSsu teste.txt` 
 
 ## ▸ cut
@@ -97,7 +97,7 @@ O comando `cut -b 1,3 /etc/passwd` pega a primeira e a terceira letra de cada li
 
 ## ▸ diff 
 É usado para comparar dois arquivos linha a linha. <br>
-**Exemplo de Aplicação**
+**Exemplo de Aplicação:** <br>
 Comparando o arquivo texto.txt com texto1.txt e exibindo suas diferenças na tela: `diff texto.txt texto1.txt`
 
 ## ▸ patch
@@ -107,7 +107,7 @@ Esse comando `patch -pO<texto.diff` aplica as diferenças no arquivo "texto.diff
 
 ## ▸ last 
 Exibe todas as informações de entrada(login) e saída(logout) de usuários do sistema.<br>
-**Exemplo de Aplicação**
+**Exemplo de Aplicação:** <br>
 Para mostrar a listagem geral e o nome da máquina: `last -a -`
 
 ## ▸ finger
@@ -117,7 +117,7 @@ O comando `finger` mostra os dados de todos os usuários conectados no sistema.
 
 ## ▸ echo
 Eficiente na construção de scripts o comando **echo** mostra mensagens o que facilita o usuário a acompanhar sua execução.<br>
-**Exemplo de Aplicação**<br>
+**Exemplo de Aplicação:** <br>
 `echo[mensagem]`e para que não ocorra um salto de linha após a exibição da mensagem é usado o `echo -n`.
 
 ## ▸ chmod
@@ -127,7 +127,7 @@ Esse comando `chmod a=rw teste.txt` permite que todos os usuários exatamente (=
 
 ## ▸ df
 O comando `df`(disk free) exibe a capacidade utilizada de um sistema de arquivos em termos de espaço e inodes (estrutura que descreve um objeto do sistema de arquivos). <br>
-**Exemplo de Aplicação** <br>
+**Exemplo de Aplicação:** <br>
 Exibindo a capacidade do disco montado como raiz: `df -h /`
 
 ## ▸ du
@@ -136,6 +136,9 @@ Mostra o espaço ocupado por um arquivo e sub-diretório do diretório atual. <b
 O comando `du -h` mostra o espaço ocupado em formato Kb e Mb ao invés de blocos. 
 
 ## ▸ free
+Mostra a quantidade de memória RAM livre e utilizada do sistema. <br>
+**Exemplo de Aplicação:** <br>
+Exibindo a memória em KB: `free`
 
 ## ▸ isattr
 Lista os atributos de um arquivo ou um diretório do diretório atual <br>
