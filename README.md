@@ -118,8 +118,7 @@ O comando `finger` mostra os dados de todos os usuários conectados no sistema.
 ## ▸ echo
 Eficiente na construção de scripts o comando **echo** mostra mensagens o que facilita o usuário a acompanhar sua execução.<br>
 **Exemplo de Aplicação**<br>
-`echo[mensagem]`<br>
-Para que não ocorra um salto de linha após a exibição da mensagem é usado o `echo -n`.
+`echo[mensagem]`e para que não ocorra um salto de linha após a exibição da mensagem é usado o `echo -n`.
 
 ## ▸ chmod
 Muda a permissão de acessso a um arquivo ou diretório, o usuário pode escolher se um outro usuário ou grupo possa ter permissão para ler, gravar e executar um arquivo. <br>
@@ -127,6 +126,9 @@ Muda a permissão de acessso a um arquivo ou diretório, o usuário pode escolhe
 Esse comando `chmod a=rw teste.txt` permite que todos os usuários exatamente (=) para leitura e gravação do arquivo "teste.txt".
 
 ## ▸ df
+O comando `df`(disk free) exibe a capacidade utilizada de um sistema de arquivos em termos de espaço e inodes (estrutura que descreve um objeto do sistema de arquivos). <br>
+**Exemplo de Aplicação** <br>
+Exibindo a capacidade do disco montado como raiz: `df -h /`
 
 ## ▸ du
 Mostra o espaço ocupado por um arquivo e sub-diretório do diretório atual. <br>
