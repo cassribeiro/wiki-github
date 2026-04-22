@@ -1,5 +1,5 @@
 <p align="center">
-  🐧 #Comando em Linux 🐧
+  #🐧 #Comando em Linux 🐧
 </p>
 
 
