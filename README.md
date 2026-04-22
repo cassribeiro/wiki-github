@@ -86,6 +86,9 @@ Organiza as linhas de um arquivo de texto ou entrada padrão, essa organização
 O comando `sort texto.txt` organiza o arquivo "texto.txt" em ordem crescente. 
 
 ## ▸ chattr 
+Essencial para proteger arquivos, é um comando que pode modificar atributos de arquivos e diretórios indo além das permissões padrão (rwx).<br>
+**Exemplo de Aplicação** <br>
+ Adicionando todos os atributos:`chattr +AacdiSsu teste.txt` 
 
 ## ▸ cut
 Mostra seções de cada linha do arquivo. <br>
