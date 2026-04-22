@@ -1,4 +1,9 @@
-# Comando em Linux 🐧
+<p align="center">
+  # 🐧 Comando em Linux 🐧
+</p>
+
+
+
 ## ▸ ls
 Um dos comandos mais utilizados o `ls` é utilizado para listar arquivos ou diretórios. <br>
 **Exemplo de Aplicação:** <br>
