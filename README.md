@@ -96,6 +96,10 @@ Mostra seções de cada linha do arquivo. <br>
 O comando `cut -b 1,3 /etc/passwd` pega a primeira e a terceira letra de cada linha do arquivo "/etc/passwd".
 
 ## ▸ diff 
+É usado para comparar dois arquivos linha a linha. <br>
+**Exemplo de Aplicação**
+Comparando o arquivo texto.txt com texto1.txt e exibindo suas diferenças na tela: `diff texto.txt texto1.txt`
+
 
 ## ▸ patch
 Atualiza os arquivos texto através das diferenças geradas pelo comando `diff`. <br>
